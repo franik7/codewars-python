@@ -14,3 +14,10 @@ def digitize(n):
     li = list(n_str.split()) 
     li.sort()
     return li
+
+
+//Convert a Number to a String!
+def number_to_string(num):
+    # Return a string of the number here!
+    string = "{}".format(num)
+    return string
