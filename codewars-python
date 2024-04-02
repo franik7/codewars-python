@@ -21,3 +21,10 @@ def number_to_string(num):
     # Return a string of the number here!
     string = "{}".format(num)
     return string
+
+
+//Jenny's secret message
+def greet(name):
+    return "Hello, {name}!".format(name=name)
+    if name == "Johnny":
+        return "Hello, my love!"
