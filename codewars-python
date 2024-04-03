@@ -28,3 +28,10 @@ def greet(name):
     return "Hello, {name}!".format(name=name)
     if name == "Johnny":
         return "Hello, my love!"
+
+
+//Remove duplicates from list
+def distinct(seq):
+    res = []
+    [res.append(x) for x in seq if x not in res]
+    return res
