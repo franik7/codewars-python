@@ -35,3 +35,13 @@ def distinct(seq):
     res = []
     [res.append(x) for x in seq if x not in res]
     return res
+
+
+//Sum of positive
+def positive_sum(arr):
+    # Your code here
+    sum = 0
+    for num in arr:
+        if num > 0:
+            sum = sum + num
+    return sum
