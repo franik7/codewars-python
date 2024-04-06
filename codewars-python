@@ -51,3 +51,11 @@ def positive_sum(arr):
 def remove_every_other(my_list):
     res = [my_list[i] for i in range(len(my_list)) if i % 2 == 0]
     return res
+
+
+//Will you make it?
+def zero_fuel(distance_to_pump, mpg, fuel_left):
+    if distance_to_pump / mpg <= fuel_left:
+        return True
+    else:
+        return False
