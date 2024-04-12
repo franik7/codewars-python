@@ -7,6 +7,7 @@ def pillars(num_pill, dist, width):
     elif num_pill > 2:
         return num_pill * width + (num_pill - 1) * dist * 100 - width * 2
 
+
 //Convert number to reversed array of digits
 def digitize(n):
     n_str = str(n)
@@ -78,3 +79,9 @@ def are_you_playing_banjo(name):
         return name + " plays banjo"
     else:
         return name + " does not play banjo"
+
+
+//Grasshopper - Combine strings
+# Create the combine_names function here
+def combine_names(first, last):
+    return first + ' ' + last
