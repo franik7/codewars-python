@@ -85,3 +85,9 @@ def are_you_playing_banjo(name):
 # Create the combine_names function here
 def combine_names(first, last):
     return first + ' ' + last
+
+
+//Opposite number
+def opposite(number):
+  # your solution here
+    return number * -1
