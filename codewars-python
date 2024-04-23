@@ -91,3 +91,8 @@ def combine_names(first, last):
 def opposite(number):
   # your solution here
     return number * -1
+
+
+//Function 2 - squaring an argument
+def square(n):
+    return n * n 
