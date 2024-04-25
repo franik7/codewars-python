@@ -93,6 +93,7 @@ def opposite(number):
     return number * -1
 
 
+
 //Function 2 - squaring an argument
 def square(n):
     return n * n 
